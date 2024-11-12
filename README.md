@@ -18,7 +18,8 @@ Step 6:Create bands for variables that will be used in the model (Humidity9amCat
 Humidity3pmCat, and WindGustSpeedCat)<br/>
 Step 7:Define a function to calculate probability distributions, which go into the
 Bayesian Belief Network (BBN)<br/>
-Step 8:Create BbnNode objects for Humidity9amCat, Humidity3pmCat, WindGustSpeedCat,
+Step 8:Create BbnNode objects for Humidity9amCat, Humidity3pmCat,
+WindGustSpeedCat,
 and RainTomorrow, using the probs() function to calculate their probabilities<br/>
 Step 9:Create a Bbn object and add the BbnNode objects to it, along with edges
 between the nodes<br/>
